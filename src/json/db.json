@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "secondaryColor": "#57C278",
+    "name": "EcoTech Energy",
+    "iconUrl": "https://example.com/icon-eco-tech.png",
+    "description": "EcoTech Energy is a pioneering initiative focused on integrating energy efficiency solutions in industrial processes. It involves the development of smart energy monitoring and control systems, aiming at sustainability and innovation.",
+    "startDate": "2023-01-15",
+    "endDate": "2023-12-20",
+    "projectLink": "https://ecotechenergia.com",
+    "tags": ["Energy Efficiency", "Industry 4.0", "Sustainability"],
+    "companyName": "EcoTech Solutions",
+    "companyIconUrl": "https://example.com/icon-eco-tech-company.png",
+    "members": [
+      {
+        "primaryColor": "#D9F7E9",
+        "name": "Yoko Takano",
+        "role": "Chief Engineer",
+        "description": "Responsible for developing innovative energy efficiency solutions.",
+        "photoUrl": "https://github.com/yoko-takano.png"
+      },
+      {
+        "primaryColor": "#D9F7E9",
+        "name": "Filipe Deschamps",
+        "role": "Project Manager",
+        "description": "Coordinates all stages of the project, ensuring timely delivery.",
+        "photoUrl": "https://github.com/filipedeschamps.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "secondaryColor": "#82CFFA",
+    "name": "Advanced Industry 4.0",
+    "iconUrl": "https://example.com/icon-industry-4-0.png",
+    "description": "Advanced Industry 4.0 focuses on elevating industrial automation to new heights. It involves implementing cyber-physical systems, IoT, and big data analysis to transform the industrial production chain, enhancing efficiency and digitalization.",
+    "startDate": "2023-03-22",
+    "endDate": "2024-04-10",
+    "projectLink": "https://industria4-0.com",
+    "tags": ["Industry 4.0", "Process Improvement", "Technology"],
+    "companyName": "Advanced Industrial Tech",
+    "companyIconUrl": "https://example.com/icon-adv-ind-tech.png",
+    "members": [
+      {
+        "primaryColor": "#E8F8FF",
+        "name": "Bullas Attekita",
+        "role": "IoT Specialist",
+        "description": "Leads the development and integration of IoT solutions in the industrial environment.",
+        "photoUrl": "https://github.com/Bullas.png"
+      },
+      {
+        "primaryColor": "#E8F8FF",
+        "name": "Lucas Montano",
+        "role": "Data Analyst",
+        "description": "Analyzes large volumes of data to optimize production processes.",
+        "photoUrl": "https://github.com/lucasmontano.png"
+      }
+    ]
+  }
+]
