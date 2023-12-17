@@ -4,7 +4,7 @@ const Card = ({ name, role, description, photoUrl, primaryColor }) => {
   const cardColor = { backgroundColor: primaryColor };
 
   return (
-    <div className={styles.colaborador}>
+    <div className={styles.child}>
       <div className={styles.cabecalho} style={cardColor}>
         <img src={photoUrl} alt={name}></img>
       </div>

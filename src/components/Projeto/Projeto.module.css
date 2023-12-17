@@ -33,8 +33,9 @@
   line-height: 1.3em;
 }
 
-.formulario .colaborador .times {
+.formulario .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 

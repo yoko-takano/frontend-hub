@@ -37,12 +37,10 @@ const Projeto = ({
             ))}
           </ul>
         </div>
-        <div className={styles.colaborador}>
-          <div className={styles.times}>
-            {members.map((member) => (
-              <Card {...member} key={member.name} />
-            ))}
-          </div>
+        <div className={styles.container}>
+          {members.map((member) => (
+            <Card {...member} key={member.name} />
+          ))}
         </div>
       </form>
     </section>

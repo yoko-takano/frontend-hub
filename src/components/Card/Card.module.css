@@ -1,20 +1,24 @@
-.colaborador {
+.child {
+  flex: 1;
+  min-width: 200px;
+  margin: 8px;
+  border: 1px solid #ccc;
   width: 300px;
   text-align: center;
 }
 
-.colaborador .cabecalho {
+.child .cabecalho {
   background-color: #f0f0f0;
   border-radius: 10px 10px 0px 0px;
 }
-.colaborador img {
+.child img {
   width: 100px;
   border-radius: 50%;
   position: relative;
   bottom: -50px;
 }
 
-.colaborador .rodape {
+.child .rodape {
   height: 230px;
   background: #ffffff;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
@@ -23,7 +27,7 @@
   padding-bottom: 20px;
 }
 
-.colaborador .rodape h4 {
+.child .rodape h4 {
   color: #f96721;
   font-size: 18px;
   line-height: 22px;
@@ -31,14 +35,14 @@
   margin: 0px 8px;
 }
 
-.colaborador .rodape h5 {
+.child .rodape h5 {
   font-size: 18px;
   line-height: 22px;
   color: #212121;
   padding: 0 16px;
 }
 
-.colaborador .rodape h6 {
+.child .rodape h6 {
   font-size: 16px;
   padding: 0px 10px;
   font-style: italic;
