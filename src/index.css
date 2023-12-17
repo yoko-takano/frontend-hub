@@ -5,6 +5,12 @@
   --cinza: #e2e2e2;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: var(--fonte);

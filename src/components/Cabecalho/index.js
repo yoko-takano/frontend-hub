@@ -10,8 +10,8 @@ const Cabecalho = () => {
         <img className={styles.logo} src={logo} alt="Logo do HUB"></img>
       </Link>
       <nav>
-        <CabecalhoLink url="./">Projetos</CabecalhoLink>
-        <CabecalhoLink url="./Historia">Historia</CabecalhoLink>
+        <CabecalhoLink url="./">Projects</CabecalhoLink>
+        <CabecalhoLink url="./About">About</CabecalhoLink>
       </nav>
     </header>
   );
