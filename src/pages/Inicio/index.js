@@ -3,17 +3,23 @@ import Banner from "components/Banner";
 import Rodape from "components/Rodape";
 import Titulo from "components/Titulo";
 import Projeto from "components/Projeto";
-import Navbar from "components/Navbar";
 import data from "json/db.json";
 import styles from "./Inicio.module.css";
+import { Fragment } from "react";
+import Home from "components/Home";
+import Navbar from "components/Navbar";
 
 const Inicio = () => {
   return (
-    <fragment>
+    <Fragment>
       <Navbar />
+      <Home />
       <Banner imagem="home" />
       <Titulo>
-        <h1>Venha conhecer os nossos Projetos</h1>
+        <h1>
+          <br />
+          Venha conhecer os nossos Projetos
+        </h1>
       </Titulo>
 
       <section className={styles.formulario}>
@@ -22,7 +28,7 @@ const Inicio = () => {
         })}
       </section>
       <Rodape />
-    </fragment>
+    </Fragment>
   );
 };
 
