@@ -10,6 +10,7 @@ const Inicio = () => {
     <Fragment>
       <div className={styles.home}>
         <Navbar />
+        <br /> <br /> <br /> <br /> <br />
         <section className={styles.formulario}>
           {data.map((project) => {
             return <Projeto {...project} key={project.id} />;

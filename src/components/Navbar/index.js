@@ -1,5 +1,7 @@
 import { Component } from "react";
 import { MenuData } from "./MenuData";
+import { Link } from "react-router-dom";
+import logo from "./logo.png";
 import "./NavbarStyles.css";
 
 class NavbarAdv extends Component {
@@ -11,7 +13,10 @@ class NavbarAdv extends Component {
     return (
       <nav className="NavbarItems">
         <h1 className="logo">
-          HUB <i className="fab fa-react"></i>
+          HUB{" "}
+          <Link to="./">
+            <img src={logo} alt="Logo do HUB branco"></img>
+          </Link>
         </h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i
