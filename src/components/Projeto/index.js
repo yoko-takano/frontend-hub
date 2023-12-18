@@ -27,9 +27,6 @@ const Projeto = ({
           <strong>Company Name: </strong>
           {companyName}
         </p>
-        <p>
-          <strong>Tags:</strong>
-        </p>
         <div className={styles.tags}>
           <ul>
             {tags.map((tag, index) => (

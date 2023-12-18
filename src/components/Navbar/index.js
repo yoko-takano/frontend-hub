@@ -11,7 +11,7 @@ class NavbarAdv extends Component {
     return (
       <nav className="NavbarItems">
         <h1 className="logo">
-          React<i className="fab fa-react"></i>
+          HUB <i className="fab fa-react"></i>
         </h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i

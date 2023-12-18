@@ -18,7 +18,8 @@
 }
 
 .child .rodape {
-  height: 230px;
+  height: auto;
+  min-height: 250px;
   background: #ffffff;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 0px 0px 10px 10px;
@@ -27,7 +28,7 @@
 }
 
 .child .rodape h4 {
-  color: #f96721;
+  color: #fc5346;
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
@@ -38,12 +39,12 @@
   font-size: 18px;
   line-height: 22px;
   color: #212121;
-  padding: 0 16px;
+  padding: 10px 16px;
 }
 
 .child .rodape h6 {
   font-size: 16px;
-  padding: 0px 10px;
+  padding: 0px 20px;
   font-style: italic;
   font-weight: 200;
 }

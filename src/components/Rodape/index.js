@@ -26,7 +26,7 @@ const Rodape = () => {
         <img src="/imagens/logo.png" alt="" />
       </section>
       <section>
-        <p>Desenvolvido por HUB.</p>
+        <p>Developed by HUB.</p>
       </section>
     </footer>
   );
