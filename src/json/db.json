@@ -10,7 +10,7 @@
     "projectLink": "https://ecotechenergia.com",
     "tags": ["Energy Efficiency", "Industry 4.0", "Sustainability"],
     "companyName": "EcoTech Solutions",
-    "companyIconUrl": "https://example.com/icon-eco-tech-company.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#89c29a",
@@ -39,7 +39,7 @@
     "projectLink": "https://industria4-0.com",
     "tags": ["Industry 4.0", "Process Improvement", "Technology"],
     "companyName": "Advanced Industrial Tech",
-    "companyIconUrl": "https://example.com/icon-adv-ind-tech.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#b5e4ff",
@@ -68,7 +68,7 @@
     "projectLink": "https://greenfuture.com",
     "tags": ["Sustainability", "Eco-Friendly", "Green Technology"],
     "companyName": "Green Innovations",
-    "companyIconUrl": "https://example.com/icon-green-innovations.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#c2d899",
@@ -97,7 +97,7 @@
     "projectLink": "https://smartcitysolutions.com",
     "tags": ["Urban Development", "IoT", "Sustainability"],
     "companyName": "Urban Tech Innovations",
-    "companyIconUrl": "https://example.com/icon-urban-tech.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#dfa5a4",
@@ -126,7 +126,7 @@
     "projectLink": "https://healthtechinnovation.com",
     "tags": ["Healthcare", "Data Analysis", "Digital Health"],
     "companyName": "MediTech Solutions",
-    "companyIconUrl": "https://example.com/icon-meditech.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#dfb2d4",
@@ -155,7 +155,7 @@
     "projectLink": "https://agrotechsolutions.com",
     "tags": ["Agriculture", "Technology", "Sustainability"],
     "companyName": "Modern Farming Innovations",
-    "companyIconUrl": "https://example.com/icon-modern-farming.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#ffe090",
@@ -184,7 +184,7 @@
     "projectLink": "https://edutechrevolution.com",
     "tags": ["Education", "E-Learning", "Technology"],
     "companyName": "Learning Innovators",
-    "companyIconUrl": "https://example.com/icon-learning-innovators.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#FFBB83",
@@ -213,7 +213,7 @@
     "projectLink": "https://fintechinnovations.com",
     "tags": ["Finance", "Blockchain", "Digital Banking"],
     "companyName": "Digital Finance Tech",
-    "companyIconUrl": "https://example.com/icon-digital-finance.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#c3a5ff",
@@ -242,7 +242,7 @@
     "projectLink": "https://cybersecurityfrontiers.com",
     "tags": ["Cybersecurity", "Data Protection", "Security Awareness"],
     "companyName": "SecureTech Innovations",
-    "companyIconUrl": "https://github.com/yoko-takano.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#aab7f6",
@@ -271,7 +271,7 @@
     "projectLink": "https://airoboticsexploration.com",
     "tags": ["Artificial Intelligence", "Robotics", "Automation"],
     "companyName": "AI Robotics Corp",
-    "companyIconUrl": "https://example.com/icon-ai-robotics-corp.png",
+    "companyIconUrl": "fa-solid fa-building",
     "members": [
       {
         "primaryColor": "#e69cfa",

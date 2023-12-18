@@ -13,6 +13,7 @@ const Projeto = ({
   projectLink,
   tags,
   iconUrl,
+  companyIconUrl,
 }) => {
   const borderLine = { borderColor: secondaryColor };
   return (
@@ -37,6 +38,7 @@ const Projeto = ({
         </p>
         <p>
           <strong>Company Name: </strong>
+          <i className={companyIconUrl}></i>
           {companyName}
         </p>
         <div className={styles.tags}>
