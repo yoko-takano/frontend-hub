@@ -13,14 +13,14 @@
     "companyIconUrl": "https://example.com/icon-eco-tech-company.png",
     "members": [
       {
-        "primaryColor": "#D9F7E9",
+        "primaryColor": "#89c29a",
         "name": "John Silva",
         "role": "Chief Engineer",
         "description": "Responsible for developing innovative energy efficiency solutions.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#D9F7E9",
+        "primaryColor": "#89c29a",
         "name": "Mary Fernandes",
         "role": "Project Manager",
         "description": "Coordinates all stages of the project, ensuring timely delivery.",
@@ -42,14 +42,14 @@
     "companyIconUrl": "https://example.com/icon-adv-ind-tech.png",
     "members": [
       {
-        "primaryColor": "#E8F8FF",
+        "primaryColor": "#b5e4ff",
         "name": "Carlos Gomes",
         "role": "IoT Specialist",
         "description": "Leads the development and integration of IoT solutions in the industrial environment.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#E8F8FF",
+        "primaryColor": "#b5e4ff",
         "name": "Ana Beatriz",
         "role": "Data Analyst",
         "description": "Analyzes large volumes of data to optimize production processes.",
@@ -71,14 +71,14 @@
     "companyIconUrl": "https://example.com/icon-green-innovations.png",
     "members": [
       {
-        "primaryColor": "#F0F8E2",
+        "primaryColor": "#c2d899",
         "name": "Ricardo Souza",
         "role": "Renewable Energy Specialist",
         "description": "Focuses on developing new technologies for clean energy generation.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#F0F8E2",
+        "primaryColor": "#c2d899",
         "name": "Livia Martins",
         "role": "Environmental Engineer",
         "description": "Works on integrating sustainable practices throughout the project.",
@@ -100,14 +100,14 @@
     "companyIconUrl": "https://example.com/icon-urban-tech.png",
     "members": [
       {
-        "primaryColor": "#FDE7E8",
+        "primaryColor": "#dfa5a4",
         "name": "Tomás Almeida",
         "role": "Urban Planner",
         "description": "Oversees the integration of technology into urban development plans.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#FDE7E8",
+        "primaryColor": "#dfa5a4",
         "name": "Sara Costa",
         "role": "Environmental Consultant",
         "description": "Advises on sustainable practices and eco-friendly solutions in urban settings.",
@@ -129,14 +129,14 @@
     "companyIconUrl": "https://example.com/icon-meditech.png",
     "members": [
       {
-        "primaryColor": "#FAE9F5",
+        "primaryColor": "#dfb2d4",
         "name": "Lucas Barros",
         "role": "Medical Researcher",
         "description": "Leads research and development of new digital healthcare tools.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#FAE9F5",
+        "primaryColor": "#dfb2d4",
         "name": "Isabela Rocha",
         "role": "Data Scientist",
         "description": "Analyzes patient data to improve healthcare delivery and outcomes.",
@@ -158,14 +158,14 @@
     "companyIconUrl": "https://example.com/icon-modern-farming.png",
     "members": [
       {
-        "primaryColor": "#FFF5D9",
+        "primaryColor": "#ffe090",
         "name": "Pedro Gonçalves",
         "role": "Agricultural Engineer",
         "description": "Develops and implements precision farming techniques and technologies.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#FFF5D9",
+        "primaryColor": "#ffe090",
         "name": "Julia Santos",
         "role": "Resource Manager",
         "description": "Manages sustainable resource use and implements eco-friendly farming practices.",
@@ -175,7 +175,7 @@
   },
   {
     "id": 7,
-    "secondaryColor": "#FF8A29",
+    "secondaryColor": "#FC5346",
     "name": "EduTech Revolution",
     "iconUrl": "fa-solid fa-laptop-file",
     "description": "EduTech Revolution is dedicated to transforming the educational sector through technology. The project includes developing interactive e-learning platforms, AI-driven personalized learning, and virtual classrooms.",
@@ -187,14 +187,14 @@
     "companyIconUrl": "https://example.com/icon-learning-innovators.png",
     "members": [
       {
-        "primaryColor": "#FFEEDF",
+        "primaryColor": "#FFBB83",
         "name": "Roberto Dias",
         "role": "Educational Technologist",
         "description": "Leads the development of innovative e-learning solutions and platforms.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#FFEEDF",
+        "primaryColor": "#FFBB83",
         "name": "Larissa Oliveira",
         "role": "Content Strategist",
         "description": "Designs engaging and educational content for digital learning platforms.",
@@ -216,14 +216,14 @@
     "companyIconUrl": "https://example.com/icon-digital-finance.png",
     "members": [
       {
-        "primaryColor": "#E7DDF8",
+        "primaryColor": "#c3a5ff",
         "name": "Bruno Carvalho",
         "role": "Blockchain Expert",
         "description": "Spearheads the integration of blockchain technology in financial services.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#E7DDF8",
+        "primaryColor": "#c3a5ff",
         "name": "Fernanda Lima",
         "role": "Digital Banking Specialist",
         "description": "Focuses on developing innovative digital banking platforms and services.",
@@ -245,14 +245,14 @@
     "companyIconUrl": "https://github.com/yoko-takano.png",
     "members": [
       {
-        "primaryColor": "#E1E6FF",
+        "primaryColor": "#aab7f6",
         "name": "Ricardo Mendes",
         "role": "Security Analyst",
         "description": "Leads the development of advanced cybersecurity solutions and protocols.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#E1E6FF",
+        "primaryColor": "#aab7f6",
         "name": "Ana Paula",
         "role": "Data Protection Officer",
         "description": "Ensures compliance with data protection laws and develops data safety strategies.",
@@ -274,14 +274,14 @@
     "companyIconUrl": "https://example.com/icon-ai-robotics-corp.png",
     "members": [
       {
-        "primaryColor": "#F1DFF6",
+        "primaryColor": "#e69cfa",
         "name": "Carlos Silva",
         "role": "AI Researcher",
         "description": "Focuses on the development of AI algorithms and machine learning models.",
         "photoUrl": "https://github.com/yoko-takano.png"
       },
       {
-        "primaryColor": "#F1DFF6",
+        "primaryColor": "#e69cfa",
         "name": "Juliana Martins",
         "role": "Robotics Engineer",
         "description": "Designs and develops innovative robotic systems and solutions.",

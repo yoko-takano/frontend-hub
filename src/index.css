@@ -11,12 +11,8 @@
 body {
   margin: 0;
   font-family: var(--fonte);
-  background: rgb(251, 165, 63);
-  background: radial-gradient(
-    circle,
-    rgba(251, 165, 63, 1) 0%,
-    rgba(252, 83, 70, 1) 100%
-  );
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0%, #fa7305 74%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

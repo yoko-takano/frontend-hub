@@ -55,7 +55,7 @@
 }
 
 .nav-links:hover {
-  background-color: #fc5346;
+  background-color: #fa7305;
   border-radius: 3px;
   transition: all 0.2s ease-in-out;
 }
@@ -95,7 +95,7 @@
 
 .nav-links-mobile:hover {
   background-position: right center;
-  color: #fc5346;
+  color: #fa7305;
   text-decoration: none;
 }
 
