@@ -21,3 +21,8 @@
 .rodape ul li:last-child {
   margin-right: 0;
 }
+
+.rodape i:hover {
+  color: #fc5346;
+  transition: all 0.2s ease-in-out;
+}

@@ -17,14 +17,15 @@
 }
 
 .logo {
+  transform: translateY(-6px);
   color: #fff;
   justify-self: start;
   cursor: pointer;
 }
 
 .logo img {
+  transform: translateY(8px);
   width: 40px;
-  transform: translateY(6px);
 }
 
 .fa-react {

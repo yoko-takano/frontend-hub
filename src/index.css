@@ -1,8 +1,5 @@
 :root {
   --fonte: "Montserrat", sans-serif;
-  --branco: #ffffff;
-  --preto: #000000;
-  --cinza: #e2e2e2;
 }
 
 * {
@@ -14,7 +11,12 @@
 body {
   margin: 0;
   font-family: var(--fonte);
-  background-color: var(--branco);
+  background: rgb(251, 165, 63);
+  background: radial-gradient(
+    circle,
+    rgba(251, 165, 63, 1) 0%,
+    rgba(252, 83, 70, 1) 100%
+  );
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

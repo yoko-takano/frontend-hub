@@ -10,16 +10,28 @@ const Projeto = ({
   companyName,
   secondaryColor,
   members,
+  projectLink,
   tags,
+  iconUrl,
 }) => {
   const borderLine = { borderColor: secondaryColor };
   return (
     <section className={styles.formulario}>
       <form>
-        <h3 style={borderLine}>{name}</h3>
-        <p className={styles.datas}>
-          {startDate} ~ {endDate}
-        </p>
+        <table>
+          <a
+            href={projectLink}
+            target="_blank"
+            style={{ color: secondaryColor }}
+          >
+            <i className={iconUrl}></i>
+          </a>{" "}
+          <h3 style={borderLine}>{name}</h3>
+          <p className={styles.datas}>
+            {startDate} ~ {endDate}
+          </p>
+        </table>
+
         <p>
           <strong>Description:</strong> {description}
         </p>
