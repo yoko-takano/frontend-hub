@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "./logo.png";
 import "./NavbarStyles.css";
 
-class NavbarAdv extends Component {
+class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
@@ -40,4 +40,4 @@ class NavbarAdv extends Component {
   }
 }
 
-export default NavbarAdv;
+export default Navbar;
