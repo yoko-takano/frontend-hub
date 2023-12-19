@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Índice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Sobre e Funcionalidades](#sobre-e-funcionalidades)
+- [Imagens Representativas](#imagens-representativas)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
-## Available Scripts
+# Descrição do Projeto
+O projeto consiste no desenvolvimento de um site utilizando a biblioteca `ReactJS`, destinado a apresentar o portfólio do Centro de Pesquisa, Tecnologia e Inovação HUB, situado na Universidade do Estado do amazonas - UEA. Este ambiente online foi elaborado para oferecer uma experiência informativa aos visitantes, destacando os principais projetos, integrantes e áreas de atuação dos projetos.
 
-In the project directory, you can run:
+# Sobre e Funcionalidades
 
-### `npm start`
+## Sobre a barra de navegação:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:heavy_check_mark: A navbar é responsiva para telas grandes, medias e pequenas, recolhendo no padrão menu hamburguinho.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+:heavy_check_mark: Também é do tipo flutuante e não some caso o usuário vá navegando para baixo na página.
 
-### `npm test`
+:heavy_check_mark: O ícone do HUB retorna para a página principal (que é a página dos projetos, chamada também de Project).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:heavy_check_mark: O ícone About leva para a página sobre o HUB.
 
-### `npm run build`
+:heavy_check_mark: O ícone Contact e Sign Up são representativos apenas para fins visuais, ambas não têm funcionalidade de navegação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:heavy_check_mark: Sobre o ícone de Sign Up, este tem um design diferente dos outros para chamar a atenção do usuário.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+:heavy_check_mark: Tanto os ícones quanto a descrição do ícone (Projects, About, Contact e Sign Up) provem do arquivo `MenuData.js` e são dinâmicamente apresentados.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:heavy_check_mark: Os ícones são provenientes do <a href="https://fontawesome.com/" target="_blank">`fontawesome.com`</a>.
 
-### `npm run eject`
+:heavy_check_mark: Gradiente para fundo da página e ideias de estilização de botões foram feitas com o auxílio do site <a href="https://cssgradient.io/" target="_blank">`cssgradient.io`</a>.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:heavy_check_mark: Detalhe do favicon da logo do HUB na página! :sparkles:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sobre o conteúdo da página:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Projects
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+:heavy_check_mark: Nela temos o portfólio de todos os projetos a serem apresentados.
 
-## Learn More
+:heavy_check_mark: Cores, ícones, informações sobre os projetos e sobre os integrantes provem do arquivo `db.json` e são dinâmicamente apresentados.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+:heavy_check_mark: Primeiramente, temos o ícone do projeto. Este ícone é clicável, que irá redirecionar o usuário para a página do projeto em uma nova guia. Apresenta um leve hover da cor do projeto para o cinza. É possível alterar o ícone para o ícone do projeto alterando a fonte `db.json`. Ícone meramente ilustrativo. Ao lado, tem-se o nome do projeto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+:heavy_check_mark: Abaixo temos as datas de início e término, descrição e nome da companhia.
 
-### Code Splitting
+:heavy_check_mark: Em relação ao ícone da companhia, também é meramente ilustrativa e pode ser alterado, assim como as outras informações contidas na base de dados.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+:heavy_check_mark: Temos também as tags de cada projeto, responsivo de forma que, quando a tela fica menor, as tags respodem e acontece uma quebra de linha. Tem uma fonte diferente para ficar com aspecto de tag.
 
-### Analyzing the Bundle Size
+### Cards
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+:heavy_check_mark: Os integrantes são apresentados por `cards`. Temos a foto do integrante, o seu cargo e qual a responsabilidade do integrante no projeto. 
 
-### Making a Progressive Web App
+:heavy_check_mark: Atualmente, todas imagens estão com a mesma photoURL, que é `https://github.com/yoko-takano.png` para ilustração. A intenção é colocar a URL dos participantes a partir da imagem do `GitHub`, como no exemplo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+:heavy_check_mark: A cor de fundo do `card` é um tom mais suave que o utilizado no título do projeto. Foi utilizado o `Figma` para organização da paleta de cores do site.
 
-### Advanced Configuration
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/8938cda1-e759-40e1-8f2b-fbd482906acb)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### About
 
-### Deployment
+:heavy_check_mark: Informações sobre o HUB retiradas do `LinkedIn` do próprio. Contém visão geral, setor, sede, ano de fundação e localização.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+:heavy_check_mark: Em específico, a locação foi inserida a partir de `<iframe>` diretamente do GoogleMaps.
 
-### `npm run build` fails to minify
+## Sobre o rodapé:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+:heavy_check_mark: É apresentado no rodapé, mais para a esquerda, os ícones do LinkedIn e Instagram. Todos são links que direcionam o cliente para as páginas das redes sociais do HUB.
+
+:heavy_check_mark: Para a direita temos os dizeres "Developed by HUB".
+
+# Imagens Representativas
+
+## Telas pequenas
+
+https://github.com/yoko-takano/frontend-hub/assets/148287663/8d10d2b4-cd52-4067-b1b1-2456cba466fb
+
+## Telas médias
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/fcfbfe27-27cc-4527-9cc2-b023dd9e0553)
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/5f23a854-7c60-42d9-bd48-7af0ae4f0517)
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/bc42fb93-080c-4fb6-80b9-c90481f6ee9c)
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/2efaa4af-f9c3-40b1-947b-07001c256038)
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/6b94cae9-46c9-4c46-a5f6-fa8268fd7aa1)
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/e7aec598-079e-4bce-af03-973fdee42583)
+
+## Telas grandes
+![image](https://github.com/yoko-takano/frontend-hub/assets/148287663/f23c9ab2-8525-4920-b3bf-42a8a6bee57d)
+
+# Tecnologias Utilizadas
+
+:heavy_check_mark: `ReactJS:` Escolhido pela sua eficiência no desenvolvimento de interfaces interativas e reativas.
+
+:heavy_check_mark: `Figma:` Utilizado para o design e prototipagem, proporcionando uma abordagem colaborativa no desenvolvimento da interface do usuário.
