@@ -1,14 +1,14 @@
 # Índice
 
 - [Descrição do Projeto](#descrição-do-projeto)
-- [Sobre e Funcionalidades](#sobre-e-funcionalidades)
+- [Componentes e Funcionalidades](#componentes-e-funcionalidades)
 - [Imagens Representativas](#imagens-representativas)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
 # Descrição do Projeto
 O projeto consiste no desenvolvimento de um site utilizando a biblioteca `ReactJS`, destinado a apresentar o portfólio do Centro de Pesquisa, Tecnologia e Inovação HUB, situado na Universidade do Estado do amazonas - UEA. Este ambiente online foi elaborado para oferecer uma experiência informativa aos visitantes, destacando os principais projetos, integrantes e áreas de atuação dos projetos.
 
-# Sobre e Funcionalidades
+# Componentes e Funcionalidades
 
 ## Sobre a barra de navegação:
 
@@ -48,7 +48,7 @@ O projeto consiste no desenvolvimento de um site utilizando a biblioteca `ReactJ
 
 :heavy_check_mark: Temos também as tags de cada projeto, responsivo de forma que, quando a tela fica menor, as tags respodem e acontece uma quebra de linha. Tem uma fonte diferente para ficar com aspecto de tag.
 
-### Cards
+#### Cards
 
 :heavy_check_mark: Os integrantes são apresentados por `cards`. Temos a foto do integrante, o seu cargo e qual a responsabilidade do integrante no projeto. 
 
