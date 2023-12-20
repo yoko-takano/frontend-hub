@@ -5,31 +5,31 @@ const Projeto = () => {
     <section className={styles.formulario}>
       <form>
         <table>
-          <h3>Sobre Nós</h3>
+          <h3>About Us</h3>
         </table>
         <p>
-          <strong>Visão Geral: </strong>O Hub Tecnologia e Inovação é um pólo
-          tecnológico localizado na Escola Superior de Tecnologia da UEA, em
-          Manaus/AM. Atualmente composto pelos laboratórios LSE (sistemas
-          embarcados) ILUM (química) Indústria 4.0 (integração de tecnologias
-          digitais), o Hub tem como missão potencializar o desenvolvimento
-          técnico e pessoal de nossos parceiros, fornecendo soluções
-          tecnológicas, inovadoras e sustentáveis. Conheça mais sobre nossos
-          projetos e acompanhe aqui nosso trabalho.
+          <strong>Overview: </strong>The Technology and Innovation Hub is a
+          technological hub located at the School of Technology of UEA in
+          Manaus/AM. Currently composed of the LSE (embedded systems), ILUM
+          (chemistry), and Industry 4.0 (digital technology integration)
+          laboratories, the Hub's mission is to enhance the technical and
+          personal development of our partners by providing technological,
+          innovative, and sustainable solutions. Learn more about our projects
+          and follow our work here.
         </p>
         <p>
-          <strong>Setor: </strong>
-          Pesquisa e desenvolvimento Científico
+          <strong>Sector: </strong>
+          Research and Scientific Development
         </p>
         <p>
-          <strong>Sede: </strong>
+          <strong>Headquarters: </strong>
           Manaus, Amazonas
         </p>
         <p>
-          <strong>Fundada em 2015</strong>
+          <strong>Founded em 2015</strong>
         </p>
         <p>
-          <strong>Localização:</strong>
+          <strong>Location:</strong>
           <br />
         </p>
         <div className={styles.mapa}>
