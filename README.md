@@ -92,3 +92,5 @@ https://github.com/yoko-takano/frontend-hub/assets/148287663/8d10d2b4-cd52-4067-
 :heavy_check_mark: `ReactJS:` Escolhido pela sua eficiência no desenvolvimento de interfaces interativas e reativas.
 
 :heavy_check_mark: `Figma:` Utilizado para o design e prototipagem, proporcionando uma abordagem colaborativa no desenvolvimento da interface do usuário.
+
+:heavy_check_mark: `JsonServer:` Utilizado para simular uma FakeAPI de acordo comos dados em `db.json`.
